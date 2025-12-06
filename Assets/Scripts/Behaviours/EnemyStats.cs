@@ -8,28 +8,35 @@ namespace Behaviours
     {
         [SerializeField] private EnemyData enemyData;
         [SerializeField] private float deathAnimationTime;
+        [SerializeField] private float damageInterval;
         [SerializeField] private Transform detectorTransform;
         [SerializeField] private float detectorRadius;
         [SerializeField] private LayerMask detectorLayerMask;
         private float _maxHealth;
         private float _currentHealth;
+        private bool _foundEnemy;
         private Rigidbody2D _rb;
+        private Collider2D _detector;
+        public float MoveSpeed { get; set; }
 
         private void Awake()
         {
             _maxHealth = enemyData.maxHealth;
             _currentHealth = _maxHealth;
+            MoveSpeed = enemyData.moveSpeed;
             _rb =  GetComponent<Rigidbody2D>();
+            _foundEnemy = false;
         }
 
         private void Update()
         {
-            _rb.linearVelocityX = CheckAllyUnit() ? 0.0f : -enemyData.moveSpeed * Time.deltaTime;
+            _rb.linearVelocityX = CheckAllyUnit() ? 0.0f : -MoveSpeed * Time.deltaTime;
         }
 
         public void TakeDamage(float damage)
         {
             _currentHealth -= damage;
+            Debug.Log($"{gameObject.name}: {_currentHealth} / {_maxHealth}");
             if (_currentHealth <= 0)
                 StartCoroutine(Die());
         }
@@ -41,19 +48,32 @@ namespace Behaviours
             //play death animation
 
             yield return wait;
+            
+            StopAllCoroutines();
+            Destroy(gameObject);
         }
 
         private bool CheckAllyUnit()
         {
-            Collider2D detector = Physics2D.OverlapCircle(detectorTransform.position, detectorRadius, detectorLayerMask );
-            //Irá checkar se o collider é de um aliado nosso
-            return detector;
+            _detector = Physics2D.OverlapCircle(detectorTransform.position, detectorRadius, detectorLayerMask );
+            if (_detector && !_foundEnemy) StartCoroutine(DoDamage(_detector));
+            return _detector;
         }
 
-        public void DoDamage()
+        private IEnumerator DoDamage(Collider2D alley)
         {
-            //Event
-            //enemyData.damage
+            YieldInstruction  wait = new WaitForSeconds(damageInterval);
+
+            _foundEnemy = true;
+            
+            while (CheckAllyUnit())
+            {
+                alley.GetComponent<AllyStats>().TakeDamage(enemyData.damage);
+                
+                yield return wait;
+            }
+            
+            _foundEnemy = false;
         }
 
         private void OnDrawGizmos()

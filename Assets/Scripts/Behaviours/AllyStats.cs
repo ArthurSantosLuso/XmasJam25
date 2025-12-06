@@ -39,6 +39,7 @@ namespace Behaviours
             yield return wait;
             
             StopAllCoroutines();
+            Destroy(gameObject);
         }
 
         protected abstract void DoSomething();

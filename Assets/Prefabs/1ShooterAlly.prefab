@@ -170,7 +170,7 @@ MonoBehaviour:
   deathAnimationTime: 0
   projectilePrefab: {fileID: 7122688614421842362, guid: f727302a989110e429b1a5a346c4bd5e, type: 3}
   projectileSpawnPoint: {fileID: 5411855270189523367}
-  projectileTimeBetweenAttacks: 1
+  projectileTimeBetweenAttacks: 1.5
 --- !u!114 &6180341311669790728
 MonoBehaviour:
   m_ObjectHideFlags: 0

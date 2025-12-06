@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 4480762606314343231}
   - component: {fileID: 6359538950505933667}
   - component: {fileID: 8656614107617801506}
-  - component: {fileID: 7033811040677859618}
-  - component: {fileID: 1129247782149577227}
+  - component: {fileID: 5525642822898042053}
+  - component: {fileID: 3850615436681708689}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: SlowBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,7 +129,7 @@ ConstantForce2D:
   m_Force: {x: 0, y: 0}
   m_RelativeForce: {x: 0.001, y: 0}
   m_Torque: 0
---- !u!114 &7033811040677859618
+--- !u!114 &5525642822898042053
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,12 +138,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7122688614421842362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47675bf6b43ff334f974b0d63319d744, type: 3}
+  m_Script: {fileID: 11500000, guid: e4ef7aaaf5b04e12af82a0b507e2f455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
   lifeTime: 2
---- !u!70 &1129247782149577227
+  slowingTime: 1
+--- !u!70 &3850615436681708689
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
