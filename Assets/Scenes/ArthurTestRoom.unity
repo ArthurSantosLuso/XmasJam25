@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1e1380c1c9f5046b2fcd40e6ce4b1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _width: 4
+  _width: 6
   _height: 4
   _tilePrefab: {fileID: 1098996927050243470, guid: b1fb65a39eaacdd48bede9d4f8804988, type: 3}
   _cam: {fileID: 1734325658}
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _camera: {fileID: 1734325658}
   _gridManager: {fileID: 761702672}
-  _unitPrefab: {fileID: 6950404266891875107, guid: 2fe3d85d5b597e744908c71de7f02c3a, type: 3}
+  _unitPrefab: {fileID: 5821840579353666231, guid: 6e6013397441c03439a2dfd5cdb30c32, type: 3}
 --- !u!4 &1601204574
 Transform:
   m_ObjectHideFlags: 0
