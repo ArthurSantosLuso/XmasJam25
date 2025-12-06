@@ -37,6 +37,8 @@ namespace Behaviours
             //play death animation
 
             yield return wait;
+            
+            StopAllCoroutines();
         }
 
         protected abstract void DoSomething();

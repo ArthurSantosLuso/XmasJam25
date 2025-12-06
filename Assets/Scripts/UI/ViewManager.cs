@@ -6,8 +6,6 @@ public class ViewManager : MonoBehaviour
     private float _time;
     private float _currentMoney;
     private float _score;
-    public Action OnChangeMoney;
-    public Action OnChangeScore;
 
     public void EarnMoney(float amount)
     {
