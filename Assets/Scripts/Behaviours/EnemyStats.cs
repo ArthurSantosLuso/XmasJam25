@@ -10,26 +10,21 @@ namespace Behaviours
         [SerializeField] private float deathAnimationTime;
         [SerializeField] private Transform detectorTransform;
         [SerializeField] private float detectorRadius;
+        [SerializeField] private LayerMask detectorLayerMask;
         private float _maxHealth;
         private float _currentHealth;
-        private float _moveSpeed;
-        private float _damage;
         private Rigidbody2D _rb;
 
         private void Awake()
         {
             _maxHealth = enemyData.maxHealth;
             _currentHealth = _maxHealth;
-            _moveSpeed = enemyData.moveSpeed;
-            _damage = enemyData.damage;
             _rb =  GetComponent<Rigidbody2D>();
         }
 
         private void Update()
         {
-            if (CheckAllyUnit())
-                return;
-            Move();
+            _rb.linearVelocityX = CheckAllyUnit() ? 0.0f : -enemyData.moveSpeed * Time.deltaTime;
         }
 
         public void TakeDamage(float damage)
@@ -48,14 +43,9 @@ namespace Behaviours
             yield return wait;
         }
 
-        private void Move()
-        {
-            _rb.linearVelocityX =  -_moveSpeed * Time.deltaTime;
-        }
-
         private bool CheckAllyUnit()
         {
-            Collider2D detector = Physics2D.OverlapCircle(detectorTransform.position, detectorRadius);
+            Collider2D detector = Physics2D.OverlapCircle(detectorTransform.position, detectorRadius, detectorLayerMask );
             //Irá checkar se o collider é de um aliado nosso
             return detector;
         }
@@ -63,6 +53,7 @@ namespace Behaviours
         public void DoDamage()
         {
             //Event
+            //enemyData.damage
         }
 
         private void OnDrawGizmos()
