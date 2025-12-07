@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: d2da3158f755d0542bebcc3e3fa86e2f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4845996414086831929
+    second: pewpewspriteshett_0
+  - first:
+      213: -2023684328019710374
+    second: pewpewspriteshett_1
+  - first:
+      213: -8777981512007616311
+    second: pewpewspriteshett_2
+  - first:
+      213: -6065705813439278317
+    second: pewpewspriteshett_3
+  - first:
+      213: 2266237353921918945
+    second: pewpewspriteshett_4
+  - first:
+      213: 6196280012848279586
+    second: pewpewspriteshett_5
+  - first:
+      213: -219266018548617847
+    second: pewpewspriteshett_6
+  - first:
+      213: -9180775380041042227
+    second: pewpewspriteshett_7
+  - first:
+      213: 6649797126978178750
+    second: pewpewspriteshett_8
+  - first:
+      213: -1170160195934817061
+    second: pewpewspriteshett_9
+  - first:
+      213: 8150985202347861002
+    second: pewpewspriteshett_10
+  - first:
+      213: -2251426285431110921
+    second: pewpewspriteshett_11
+  - first:
+      213: -4239974596857845081
+    second: pewpewspriteshett_12
+  - first:
+      213: -8073090624976693472
+    second: pewpewspriteshett_13
+  - first:
+      213: 3203511258150103796
+    second: pewpewspriteshett_14
+  - first:
+      213: -303097001600525588
+    second: pewpewspriteshett_15
+  - first:
+      213: -9002664265557349078
+    second: pewpewspriteshett_16
+  - first:
+      213: -3543448207524159877
+    second: pewpewspriteshett_17
+  - first:
+      213: 695141709639082824
+    second: pewpewspriteshett_18
+  - first:
+      213: -660414520669484700
+    second: pewpewspriteshett_19
+  - first:
+      213: -1056788108640756395
+    second: pewpewspriteshett_20
+  - first:
+      213: 2741558074644707137
+    second: pewpewspriteshett_21
+  - first:
+      213: 1870584935341234741
+    second: pewpewspriteshett_22
+  - first:
+      213: 8997148425739485934
+    second: pewpewspriteshett_23
+  - first:
+      213: 3857035556734706874
+    second: pewpewspriteshett_24
+  - first:
+      213: -4061816184320121365
+    second: pewpewspriteshett_25
+  - first:
+      213: -983952629178148913
+    second: pewpewspriteshett_26
+  - first:
+      213: 4126081436331920124
+    second: pewpewspriteshett_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pewpewspriteshett_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5508
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f567c3010704340800000000000000
+      internalID: 4845996414086831929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_1
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 5508
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e2cda53dd6ae3e0800000000000000
+      internalID: -2023684328019710374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_2
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 5508
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8f6d392585e2680800000000000000
+      internalID: -8777981512007616311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_3
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 5508
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3131eed33b842dba0800000000000000
+      internalID: -6065705813439278317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_4
+      rect:
+        serializedVersion: 2
+        x: 5668
+        y: 5508
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7bc39cdda437f10800000000000000
+      internalID: 2266237353921918945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4131
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220bca6a7db9df550800000000000000
+      internalID: 6196280012848279586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_6
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 4131
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d6815c7b205fcf0800000000000000
+      internalID: -219266018548617847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_7
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 4131
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc670060f65579080800000000000000
+      internalID: -9180775380041042227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_8
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 4131
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe82fd3143d84c50800000000000000
+      internalID: 6649797126978178750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_9
+      rect:
+        serializedVersion: 2
+        x: 5668
+        y: 4131
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4f0076081c2cfe0800000000000000
+      internalID: -1170160195934817061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2754
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04e8631bdd1e1170800000000000000
+      internalID: 8150985202347861002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_11
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2754
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2c6e2d8b351c0e0800000000000000
+      internalID: -2251426285431110921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_12
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 2754
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaab9981959825c0800000000000000
+      internalID: -4239974596857845081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_13
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 2754
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0275ab289de96ff80800000000000000
+      internalID: -8073090624976693472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_14
+      rect:
+        serializedVersion: 2
+        x: 5668
+        y: 2754
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa60003488257c20800000000000000
+      internalID: 3203511258150103796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1377
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea5d1702ee2bcbf0800000000000000
+      internalID: -303097001600525588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_16
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1377
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2de9537c8c101380800000000000000
+      internalID: -9002664265557349078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_17
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 1377
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e178611a423dec0800000000000000
+      internalID: -3543448207524159877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_18
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 1377
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843689fa3b3a5a900800000000000000
+      internalID: 695141709639082824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_19
+      rect:
+        serializedVersion: 2
+        x: 5668
+        y: 1377
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4694cf21e7cb5d6f0800000000000000
+      internalID: -660414520669484700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpewspriteshett_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1417
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d5c9570d88551f0800000000000000
+      internalID: -1056788108640756395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 80af53d46ec3f374e8703b9b3d8bf59b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pewpewspriteshett_0: 4845996414086831929
+      pewpewspriteshett_1: -2023684328019710374
+      pewpewspriteshett_10: 8150985202347861002
+      pewpewspriteshett_11: -2251426285431110921
+      pewpewspriteshett_12: -4239974596857845081
+      pewpewspriteshett_13: -8073090624976693472
+      pewpewspriteshett_14: 3203511258150103796
+      pewpewspriteshett_15: -303097001600525588
+      pewpewspriteshett_16: -9002664265557349078
+      pewpewspriteshett_17: -3543448207524159877
+      pewpewspriteshett_18: 695141709639082824
+      pewpewspriteshett_19: -660414520669484700
+      pewpewspriteshett_2: -8777981512007616311
+      pewpewspriteshett_20: -1056788108640756395
+      pewpewspriteshett_3: -6065705813439278317
+      pewpewspriteshett_4: 2266237353921918945
+      pewpewspriteshett_5: 6196280012848279586
+      pewpewspriteshett_6: -219266018548617847
+      pewpewspriteshett_7: -9180775380041042227
+      pewpewspriteshett_8: 6649797126978178750
+      pewpewspriteshett_9: -1170160195934817061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

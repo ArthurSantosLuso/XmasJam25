@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: 6774d0bec92fce5489aa360292005e8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4936460507049941984
+    second: boneconevespritesheet_0
+  - first:
+      213: 4863507337688139345
+    second: boneconevespritesheet_1
+  - first:
+      213: 7244087037398174938
+    second: boneconevespritesheet_2
+  - first:
+      213: -7482104321056296300
+    second: boneconevespritesheet_3
+  - first:
+      213: 458507980688793900
+    second: boneconevespritesheet_4
+  - first:
+      213: 4573115313670693590
+    second: boneconevespritesheet_5
+  - first:
+      213: -7439027908234430774
+    second: boneconevespritesheet_6
+  - first:
+      213: -1766208051364069786
+    second: boneconevespritesheet_7
+  - first:
+      213: 4191446828672691115
+    second: boneconevespritesheet_8
+  - first:
+      213: -5240048888560542950
+    second: boneconevespritesheet_9
+  - first:
+      213: -3227477976769639908
+    second: boneconevespritesheet_10
+  - first:
+      213: -4612559888855131483
+    second: boneconevespritesheet_11
+  - first:
+      213: -5155849100613170006
+    second: boneconevespritesheet_12
+  - first:
+      213: -9024520016925210954
+    second: boneconevespritesheet_13
+  - first:
+      213: -1526731330418242977
+    second: boneconevespritesheet_14
+  - first:
+      213: 8988817282918533816
+    second: boneconevespritesheet_15
+  - first:
+      213: 7687400615054245626
+    second: boneconevespritesheet_16
+  - first:
+      213: -9045612370654402102
+    second: boneconevespritesheet_17
+  - first:
+      213: 2666736349447980727
+    second: boneconevespritesheet_18
+  - first:
+      213: 5109073341708600941
+    second: boneconevespritesheet_19
+  - first:
+      213: -35032059017405580
+    second: boneconevespritesheet_20
+  - first:
+      213: -3011182759013612860
+    second: boneconevespritesheet_21
+  - first:
+      213: 5801237757628592305
+    second: boneconevespritesheet_22
+  - first:
+      213: -5482971335762483298
+    second: boneconevespritesheet_23
+  - first:
+      213: 8794360640676224470
+    second: boneconevespritesheet_24
+  - first:
+      213: -53364864676743391
+    second: boneconevespritesheet_25
+  - first:
+      213: -6444271111124722273
+    second: boneconevespritesheet_26
+  - first:
+      213: 118656691957458305
+    second: boneconevespritesheet_27
+  - first:
+      213: -4512954105668282088
+    second: boneconevespritesheet_28
+  - first:
+      213: 1980577747230530598
+    second: boneconevespritesheet_29
+  - first:
+      213: -6902694094910617004
+    second: boneconevespritesheet_30
+  - first:
+      213: -2100152005133330266
+    second: boneconevespritesheet_31
+  - first:
+      213: 5672899473049241592
+    second: boneconevespritesheet_32
+  - first:
+      213: -297847873657581925
+    second: boneconevespritesheet_33
+  - first:
+      213: 5118261795577573246
+    second: boneconevespritesheet_34
+  - first:
+      213: 1676707724887091711
+    second: boneconevespritesheet_35
+  - first:
+      213: 6814137118431508327
+    second: boneconevespritesheet_36
+  - first:
+      213: 7204210114565934592
+    second: boneconevespritesheet_37
+  - first:
+      213: -7764999746782077254
+    second: boneconevespritesheet_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 700
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boneconevespritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebd47a3da4d18440800000000000000
+      internalID: 4936460507049941984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boneconevespritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 1920
+        height: 1640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1564869d726ae7340800000000000000
+      internalID: 4863507337688139345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boneconevespritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1920
+        height: 1640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc412a97ca288460800000000000000
+      internalID: 7244087037398174938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boneconevespritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 1920
+        height: 1640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492360b03c93a2890800000000000000
+      internalID: -7482104321056296300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boneconevespritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 1920
+        height: 1640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2123a34492fc5600800000000000000
+      internalID: 458507980688793900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 87c9e72d0e011fb40953e6df023cbf9d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boneconevespritesheet_0: 4936460507049941984
+      boneconevespritesheet_1: 4863507337688139345
+      boneconevespritesheet_2: 7244087037398174938
+      boneconevespritesheet_3: -7482104321056296300
+      boneconevespritesheet_4: 458507980688793900
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
