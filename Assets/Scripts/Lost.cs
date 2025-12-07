@@ -9,7 +9,7 @@ namespace DefaultNamespace
         [SerializeField] private Canvas gameOverCanvas;
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.TryGetComponent(out EnemyStats enemie))
+            if (other.TryGetComponent<EnemyStats>(out _))
             {
                 gameOverCanvas.enabled = true;
             }
