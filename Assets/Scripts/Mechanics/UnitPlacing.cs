@@ -1,4 +1,5 @@
 using Behaviours;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -10,6 +11,7 @@ public class UnitPlacing : MonoBehaviour
     [SerializeField] private GridManager    _gridManager;
     [SerializeField] private GameObject     _unitSelectionGroup;
     [SerializeField] private ViewManager    _viewManager;
+    [SerializeField] private TextMeshProUGUI    money;
 
     private GameObject _unitPrefab;
 
@@ -67,13 +69,13 @@ public class UnitPlacing : MonoBehaviour
         AllyStats data = _unitPrefab.GetComponent<AllyStats>();
         if(_viewManager.GetCurrentMoney() < data.GetUnitCost())
         {
-            Debug.Log($"Não pode plantar. Sem dinheiro suficiente.");
+            Debug.Log($"Nï¿½o pode plantar. Sem dinheiro suficiente.");
             return;
         }
 
         if (tile.IsOccupied)
         {
-            Debug.Log("Tile já está ocupado!");
+            Debug.Log("Tile jï¿½ estï¿½ ocupado!");
             return;
         }
 
@@ -81,6 +83,7 @@ public class UnitPlacing : MonoBehaviour
         if (success)
         {
             _viewManager.SpendMoney(data.GetUnitCost());
+            money.text = _viewManager.GetCurrentMoney().ToString();
             Debug.Log($"Unidade colocada no tile {gridPos}");
             Debug.Log($"Dinheiro atual: {_viewManager.GetCurrentMoney()}");
         }

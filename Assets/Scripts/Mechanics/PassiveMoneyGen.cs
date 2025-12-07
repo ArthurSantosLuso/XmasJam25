@@ -1,11 +1,13 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class PassiveMoneyGen : MonoBehaviour
 {
     [SerializeField] private float          _timeToGenerate;
     [SerializeField] private float          _amountToGenerate;
     [SerializeField] private ViewManager    _viewManager;
+    [SerializeField] private TextMeshProUGUI    money;
 
     private void Start()
     {
@@ -24,6 +26,7 @@ public class PassiveMoneyGen : MonoBehaviour
             yield return new WaitForSeconds(_timeToGenerate);
 
             _viewManager.EarnMoney(_amountToGenerate);
+            money.text = _viewManager.GetCurrentMoney().ToString();
         }
     }
 }
