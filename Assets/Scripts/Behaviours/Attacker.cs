@@ -14,15 +14,9 @@ namespace Behaviours
         
         private float CalculateStartToEndPosition()
         {
-            float distance = transform.position.x + endPosition;
+            float distance = Mathf.Abs(endPosition - transform.position.x);
             
             return distance;
-        }
-        
-        private void OnDrawGizmos()
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawLine(transform.position, new Vector2(CalculateStartToEndPosition(),transform.position.y));
         }
     }
 }
