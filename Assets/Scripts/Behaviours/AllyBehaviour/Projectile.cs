@@ -1,4 +1,5 @@
 using System.Collections;
+using Behaviours.EnemyBehaviour;
 using UnityEngine;
 
 namespace Behaviours

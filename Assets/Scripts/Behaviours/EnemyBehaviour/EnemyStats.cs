@@ -1,8 +1,7 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
-namespace Behaviours
+namespace Behaviours.EnemyBehaviour
 {
     public class EnemyStats : MonoBehaviour
     {
@@ -12,6 +11,7 @@ namespace Behaviours
         [SerializeField] private Transform detectorTransform;
         [SerializeField] private float detectorRadius;
         [SerializeField] private LayerMask detectorLayerMask;
+        [SerializeField] private Lost toScore;
         private float _maxHealth;
         private float _currentHealth;
         private bool _foundEnemy;
@@ -44,6 +44,8 @@ namespace Behaviours
         private IEnumerator Die()
         {
             YieldInstruction wait = new WaitForSeconds(deathAnimationTime);
+            
+            toScore.OnUpdateScore(enemyData.scoreGiven);
             
             //play death animation
 
