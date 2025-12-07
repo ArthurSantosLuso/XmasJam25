@@ -1,11 +1,21 @@
 using System;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using Behaviours;
 
 public class ViewManager : MonoBehaviour
 {
     private float _time;
     private float _currentMoney;
     private float _score;
+
+    private Dictionary<AllyData, float> plantCosts;
+
+    private void Start()
+    {
+        
+    }
 
     public void EarnMoney(float amount)
     {

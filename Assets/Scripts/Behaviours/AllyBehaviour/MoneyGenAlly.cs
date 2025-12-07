@@ -8,7 +8,7 @@ namespace Behaviours
         [SerializeField] private ViewManager viewManager;
         [SerializeField] private float moneyGenerated;
         [SerializeField] private float moneyGenGap;
-        private bool _isActive;
+        private bool _isActive = true;
 
         protected override void DoSomething()
         {
@@ -24,6 +24,7 @@ namespace Behaviours
             while (true)
             {
                 viewManager.EarnMoney(moneyGenerated);
+                Debug.Log($"{this.name} generated money. Current money: {viewManager.GetCurrentMoney()}");
                 
                 yield return wait;
             }
