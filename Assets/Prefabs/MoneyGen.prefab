@@ -213,6 +213,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allyData: {fileID: 11400000, guid: d33a28bb3c0ad604ebbd207941793a2a, type: 2}
   deathAnimationTime: 0
-  viewManager: {fileID: 0}
+  viewManager: {fileID: 600484709827556224, guid: ffad201d89f80884e99cb01a00f245be, type: 3}
   moneyGenerated: 25
-  moneyGenGap: 2.5
+  moneyGenGap: 6

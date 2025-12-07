@@ -10,13 +10,6 @@ public class ViewManager : MonoBehaviour
     private float _currentMoney;
     private float _score;
 
-    private Dictionary<AllyData, float> plantCosts;
-
-    private void Start()
-    {
-        
-    }
-
     public void EarnMoney(float amount)
     {
         _currentMoney += amount;
