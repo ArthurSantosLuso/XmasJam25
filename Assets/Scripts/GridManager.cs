@@ -6,10 +6,11 @@ using System.Collections.Generic;
 public class GridManager : MonoBehaviour
 {
 
-    [SerializeField] private int    _width;
-    [SerializeField] private int    _height;
-    [SerializeField] private Tile   _tilePrefab;
-    [SerializeField] private Camera _cam;
+    [SerializeField] private int        _width;
+    [SerializeField] private int        _height;
+    [SerializeField] private Tile       _tilePrefab;
+    [SerializeField] private Camera     _cam;
+    [SerializeField] private GameObject _tileParent;
 
     private Dictionary<Vector2, Tile> _tiles;
 
@@ -25,7 +26,7 @@ public class GridManager : MonoBehaviour
         {
             for(int y = 0; y < _height; y++)
             {
-                Tile spawnedTile = Instantiate(_tilePrefab, new Vector3(x, y, 0f), Quaternion.identity);
+                Tile spawnedTile = Instantiate(_tilePrefab, new Vector3(x, y, 0f), Quaternion.identity, _tileParent.transform);
                 spawnedTile.name = $"Tile {x} {y}";
 
                 bool isOffset = (x % 2 == 0 && y % 2 != 0) || (x % 2 != 0 && y % 2 == 0);

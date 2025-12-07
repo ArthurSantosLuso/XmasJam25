@@ -30,6 +30,8 @@ namespace Behaviours
                 StartCoroutine(Die());
         }
 
+        public float GetUnitCost() => allyData.moneyCost;
+
         private IEnumerator Die()
         {
             YieldInstruction wait = new WaitForSeconds(deathAnimationTime);
