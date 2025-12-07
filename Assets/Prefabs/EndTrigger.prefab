@@ -92,3 +92,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverCanvas: {fileID: 0}
+  leaderboardData: {fileID: 11400000, guid: a2f4de0ba21da73418970597e067e001, type: 2}
+  deathSound: {fileID: 8300000, guid: 3224c6580cf6b1d4b9de6cf5d14d71b0, type: 3}

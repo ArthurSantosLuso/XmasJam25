@@ -7,16 +7,19 @@ namespace Behaviours.EnemyBehaviour
     {
         [SerializeField] private EnemyData enemyData;
         [SerializeField] private float deathAnimationTime;
+        [SerializeField] private AudioClip deathSound;
+        [SerializeField] private AudioClip walkSound;
         [SerializeField] private float damageInterval;
         [SerializeField] private Transform detectorTransform;
         [SerializeField] private float detectorRadius;
         [SerializeField] private LayerMask detectorLayerMask;
-        [SerializeField] private Lost toScore;
         private float _maxHealth;
         private float _currentHealth;
         private bool _foundEnemy;
         private Rigidbody2D _rb;
         private Collider2D _detector;
+        private AudioManager audioManager;
+        private Lost toScore;
         public float MoveSpeed { get; set; }
 
         private void Awake()
@@ -26,11 +29,14 @@ namespace Behaviours.EnemyBehaviour
             MoveSpeed = enemyData.moveSpeed;
             _rb =  GetComponent<Rigidbody2D>();
             _foundEnemy = false;
+            audioManager = AudioManager.Instance;
+            toScore = FindAnyObjectByType<Lost>();
         }
 
         private void Update()
         {
             _rb.linearVelocityX = CheckAllyUnit() ? 0.0f : -MoveSpeed * Time.deltaTime;
+            if(_rb.linearVelocityX > 0.0f) audioManager.PlaySound(walkSound);
         }
 
         public void TakeDamage(float damage)
@@ -47,7 +53,7 @@ namespace Behaviours.EnemyBehaviour
             
             toScore.OnUpdateScore(enemyData.scoreGiven);
             
-            //play death animation
+            audioManager.PlaySound(deathSound);
 
             yield return wait;
             

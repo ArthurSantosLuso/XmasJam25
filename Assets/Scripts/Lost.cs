@@ -7,16 +7,24 @@ public class Lost : MonoBehaviour
 {
     [SerializeField] private Canvas gameOverCanvas;
     [SerializeField] private LeaderboardData leaderboardData;
+    [SerializeField] private AudioClip deathSound;
+    private AudioManager audioManager;
     private float _finalScore;
     public float GetFinalScore() => _finalScore;
     public void OnUpdateScore(float scoreEarned) { _finalScore += scoreEarned;  }
-        
+
+    private void Awake()
+    {
+        audioManager = AudioManager.Instance;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.TryGetComponent<EnemyStats>(out _))
         {
             leaderboardData.score.Add(_finalScore);
             gameOverCanvas.enabled = true;
+            audioManager.PlaySound(deathSound);
         }
     }
 }

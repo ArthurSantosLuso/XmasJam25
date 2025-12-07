@@ -81,6 +81,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: f5ca685e699bba44081fc45634074a6e, type: 2}
   deathAnimationTime: 1
+  deathSound: {fileID: 8300000, guid: e4466c2cf655ed847ba1f083d2d36db7, type: 3}
+  walkSound: {fileID: 8300000, guid: 4e7a5f8f8d6b0074eb4451b80653a6b8, type: 3}
   damageInterval: 1
   detectorTransform: {fileID: 6440436137455823785}
   detectorRadius: 0.25
