@@ -16,6 +16,7 @@ public class WaveManager : MonoBehaviour
     private Transform _spawn;
     private Transform _lastSpawnedPoint;
     private readonly int _waveIndex = 1;
+    public int GetWaveIndex => _waveIndex;
     private float _timeThisWave;
     
 
